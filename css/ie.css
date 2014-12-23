@@ -1,0 +1,82 @@
+/**
+ * Global Styles for older IE versions (previous to IE9).
+ */
+
+
+
+/**
+ * Internet Explorer 8
+ */
+
+.ie8 img {
+	height: auto;
+	width: auto;
+}
+
+
+/**
+ * Internet Explorer 7
+ */
+
+.ie7 audio,
+.ie7 canvas,
+.ie7 video {
+	display: inline;
+	zoom: 1;
+}
+
+.ie7 button,
+.ie7 input,
+.ie7 select,
+.ie7 textarea {
+	vertical-align: middle;
+}
+
+.ie7 button,
+.ie7 input[type="button"],
+.ie7 input[type="reset"],
+.ie7 input[type="submit"] {
+	overflow: visible;
+}
+
+.ie7 .screen-reader-text {
+	clip: rect(1px 1px 1px 1px);
+}
+
+.ie7 .search-toggle {
+	line-height: 45px;
+	margin-right: 190px;
+	padding: 0 20px;
+	text-transform: uppercase;
+	width: auto;
+}
+
+.ie7 .search-toggle .screen-reader-text {
+	color: #fff;
+	position: relative; /* Override inherited `absolute` value set in style.css. */
+}
+
+
+
+
+/**
+ * RTL for Internet Explorer 8 & 7
+ */
+
+.rtl .attachment a,
+.rtl .gallery a,
+.rtl .wp-caption a {
+	display: inline;
+}
+
+
+/**
+ * RTL overrides for Internet Explorer 8
+ */
+
+
+/**
+ * RTL overrides for Internet Explorer 7
+ */
+
+
